@@ -19,11 +19,29 @@ A girl is riding a horse.
 A man is riding a bicycle.
 A monkey is riding a bike. 
 
+512 [[ 0.02839661  0.01329803  0.04577637 ...  0.04147339  0.02302551
+  -0.00110054]
+ [-0.01416779  0.03082275  0.01552582 ... -0.00527954  0.0062027
+  -0.00565338]
+ [ 0.01824951 -0.00608063  0.00582123 ...  0.02360535 -0.01190948
+   0.06176758]
+ [ 0.01713562 -0.02069092  0.02339172 ...  0.01751709 -0.00338173
+   0.06124878]]
+
 3.
 The man is playing the guitar.
 A man is playing the flute. 
 The man is playing the piano.
 The man is playing the violin. 
+
+512 [[ 0.02867127  0.01934815  0.02194214 ...  0.03723145  0.00442505
+   0.05523682]
+ [-0.01500702  0.03384399  0.01155853 ...  0.0049057  -0.00302506
+   0.0151062 ]
+ [ 0.01242828  0.02175903  0.01338959 ...  0.01795959  0.01384735
+   0.02450562]
+ [-0.00505829  0.02990723 -0.01087189 ...  0.02133179  0.02088928
+  -0.01461029]]
 
 4.
 A woman is adding spices on a meat.
@@ -31,49 +49,104 @@ Woman is adding sugar to meat.
 A woman is adding oil on fishes.
 A woman is pouring water on fish. 
 
+512 [[-0.05645752  0.004776   -0.04592896 ... -0.01933289 -0.01300812
+  -0.01216888]
+ [-0.02896118  0.01410675 -0.02038574 ...  0.02081299 -0.01669312
+   0.02619934]
+ [-0.03756714  0.02145386 -0.04476929 ... -0.02285767 -0.00932312
+  -0.00160313]
+ [-0.02861023  0.00930786 -0.04379272 ...  0.02552795 -0.01332855
+   0.00896454]]
+
 5.
 Two dogs in a yard.
-Two dogs in snow. 3
-
+Two dogs in snow. 
 Two dogs playing in the snow.
-Two black dogs in the snow. 4
+Two black dogs in the snow. 
+
+512 [[-0.02124023  0.06414795  0.02160644 ...  0.0138092   0.01036072
+   0.01686096]
+ [ 0.00569534  0.07092285  0.01971435 ... -0.02246094  0.01725769
+   0.01239014]
+ [ 0.00435638  0.09118652  0.01594544 ... -0.00632095  0.0059166
+   0.03045654]
+ [ 0.00745773  0.05648804  0.02529907 ... -0.02999878  0.0249176
+   0.02377319]]
 
 6.
 Two dogs swim in a pool.
-Dogs are swimming in a pool. 4,2
-
+Dogs are swimming in a pool. 
 A dog is looking into swimming pool.
-A dog is walking around a pool. 2
+A dog is walking around a pool. 
+
+512 [[ 0.00548935  0.03884888 -0.00376892 ...  0.03939819  0.00712585
+   0.04458618]
+ [-0.00103092  0.02902222 -0.00531769 ...  0.05041504 -0.00539017
+   0.05044556]
+ [-0.01239014 -0.00969696  0.00978088 ...  0.07220459  0.01225281
+   0.01013947]
+ [-0.00083351  0.06591797 -0.02409363 ...  0.07250977 -0.00494766
+   0.00959015]]
 
 7.
 Two people sitting at a table at a restaurant.
-Four people sitting at a table. 1,8
-
+Four people sitting at a table. 
 A group of people sitting at a restaurant table.
-A group of people sitting around a table with food on it. 4,2
+A group of people sitting around a table with food on it. 
+
+512 [[-0.00925446 -0.0065918  -0.03076172 ... -0.01377106  0.00613403
+  -0.05599976]
+ [ 0.01394653 -0.04055786 -0.00106525 ... -0.02018738  0.01872253
+  -0.04959106]
+ [ 0.00105953 -0.00777817 -0.01795959 ... -0.0153122   0.0059166
+  -0.04806519]
+ [-0.01287079 -0.00891113 -0.0008316  ... -0.02287292  0.02131653
+  -0.03369141]]
 
 8.
 A bird lands in the water.
-A boat floats in the water. 0,6
-
+A boat floats in the water. 
 The seagull is floating on the water.
-Large cruise ship floating on the water. 1,2
+Large cruise ship floating on the water. 
+
+512 [[-0.04675293  0.02281189  0.00994873 ...  0.03210449 -0.02030945
+  -0.0239563 ]
+ [-0.01437378  0.02241516 -0.03674316 ...  0.00679398 -0.00787353
+  -0.05130005]
+ [-0.04244995  0.02368164  0.01850891 ...  0.02424622 -0.01303101
+  -0.03387451]
+ [-0.01344299  0.0015316   0.01612854 ...  0.02276611 -0.02140808
+  -0.02845764]]
 
 9.
 A boy with a broken arm is resting in a bed.
-A boy with a broken arm is sleeping. 4
-
+A boy with a broken arm is sleeping. 
 A woman is resting in a floating raft.
-A woman relaxes in an tube. 3,8
+A woman relaxes in an tube. 
+
+512 [[-0.01267242  0.03189087  0.01100159 ... -0.03022766 -0.00708389
+   0.01875305]
+ [-0.00158024  0.06048584 -0.0055275  ... -0.04736328 -0.02693176
+   0.01055908]
+ [-0.00918579  0.01763916 -0.03234863 ...  0.02482605  0.0266571
+  -0.06015015]
+ [-0.01979065 -0.00391388  0.01337433 ...  0.00185394  0.02641296
+  -0.01154327]]
 
 10.
 A man is looking at a computer monitor.
-A man is using a laptop. 2,75
-
+A man is using a laptop. 
 Boy with glasses typing on a computer.
-A boy looking at a computer screen. 3,2
+A boy looking at a computer screen. 
 
-
+512 [[ 0.00237465 -0.06057739  0.00514603 ...  0.01339722 -0.00547791
+   0.00991058]
+ [ 0.02548218 -0.05877686  0.02313232 ... -0.0008564   0.00926208
+   0.00194454]
+ [ 0.02766419 -0.03317261  0.00784302 ... -0.04107666  0.03533936
+   0.00601196]
+ [ 0.03222656 -0.04138184  0.00556564 ... -0.02105713  0.02793884
+  -0.00532913]]
 
 
 
