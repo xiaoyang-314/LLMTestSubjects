@@ -1,73 +1,92 @@
 1.
 A man is slicing potatoes. 
-A woman is peeling potato. 2,2
 
+A woman is peeling potato. 
 A woman is slicing an onion.
-A woman is cutting a potato. 1,2
+A woman is cutting a potato.
+
+similarities: tensor([[0.6808, 0.5519, 0.7610]])
 
 2.
 A man is riding a horse.
-A girl is riding a horse. 2,6
 
+A girl is riding a horse. 
 A man is riding a bicycle.
-A monkey is riding a bike. 2
+A monkey is riding a bike. 
+
+similarities: tensor([[0.6420, 0.5100, 0.3809]])
 
 3.
 The man is playing the guitar.
-A man is playing the flute. 1,643
 
+A man is playing the flute. 
 The man is playing the piano.
-The man is playing the violin. 1,75
+The man is playing the violin. 
+
+similarities: tensor([[0.5536, 0.5801, 0.5576]])
 
 4.
 A woman is adding spices on a meat.
-Woman is adding sugar to meat. 2,75
 
+Woman is adding sugar to meat. 
 A woman is adding oil on fishes.
-A woman is pouring water on fish. 2,25
+A woman is pouring water on fish. 
+
+similarities: tensor([[0.7888, 0.6877, 0.6072]])
 
 5.
 Two dogs in a yard.
-Two dogs in snow. 3
 
+Two dogs in snow. 
 Two dogs playing in the snow.
-Two black dogs in the snow. 4
+Two black dogs in the snow.
+
+similarities: tensor([[0.6883, 0.6905, 0.6661]])
 
 6.
 Two dogs swim in a pool.
-Dogs are swimming in a pool. 4,2
 
+Dogs are swimming in a pool. 
 A dog is looking into swimming pool.
-A dog is walking around a pool. 2
+A dog is walking around a pool. 
+
+similarities: tensor([[0.6808, 0.5519, 0.7610]])
 
 7.
 Two people sitting at a table at a restaurant.
-Four people sitting at a table. 1,8
 
+Four people sitting at a table. 
 A group of people sitting at a restaurant table.
-A group of people sitting around a table with food on it. 4,2
+A group of people sitting around a table with food on it. 
+
+similarities: tensor([[0.7345, 0.8561, 0.7893]])
 
 8.
 A bird lands in the water.
-A boat floats in the water. 0,6
 
+A boat floats in the water. 
 The seagull is floating on the water.
-Large cruise ship floating on the water. 1,2
+Large cruise ship floating on the water. 
+
+similarities: tensor([[0.7984, 0.6542]])
 
 9.
 A boy with a broken arm is resting in a bed.
-A boy with a broken arm is sleeping. 4
 
+A boy with a broken arm is sleeping. 
 A woman is resting in a floating raft.
-A woman relaxes in an tube. 3,8
+A woman relaxes in an tube. 
+
+similarities: tensor([[0.8856, 0.4221, 0.3209]])
 
 10.
 A man is looking at a computer monitor.
-A man is using a laptop. 2,75
 
+A man is using a laptop. 
 Boy with glasses typing on a computer.
-A boy looking at a computer screen. 3,2
+A boy looking at a computer screen. 
 
+similarities: tensor([[0.7981, 0.5952, 0.7114]])
 
 
 
