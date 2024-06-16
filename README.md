@@ -13,9 +13,7 @@ Ein Beispiel für eine zu testende Aufgabe wäre eine Abfrage wie „A man is ea
 
 ### Test 2:
 
-Das Ziel dieser Aufgabe ist es, die eingebetteten Vektoren von zwei (oder mehreren) zu vergleichenden Sätzen zu erhalten. Zum Beispiel die folgenden Sätze:
-- 'What is the capital of Australia?'
-- 'Canberra is the capital of Australia.'
+Das Ziel dieser Aufgabe ist es, die eingebetteten Vektoren von mehreren zu vergleichenden Sätzen zu erhalten. 
 
 ## Datenbasis:
 
@@ -24,6 +22,8 @@ STS Benchmark ist ein Standarddatensatz zur Bewertung der semantischen Textähnl
 - **Medium:** Text (Satzpaare)
 - **Sprache:** Englisch
 - **Quelle:** [STS Benchmark](https://huggingface.co/datasets/mteb/stsbenchmark-sts?row=19)
+
+Aus diesem Datensatz werden 10 Satzpaare ausgewählt und in einer Textdatei gespeichert.
 
 ## Modell:
 
@@ -35,15 +35,13 @@ STS Benchmark ist ein Standarddatensatz zur Bewertung der semantischen Textähnl
 
 #### Test 1:
 
-1. Sätze sammeln und in einer Textdatei speichern: Auswahl von 10 Abfragen und zu vergleichenden Dokumenten aus dem STS Benchmark.
-2. Verwendung von `sentence_transformers`:
+1. Verwendung von `sentence_transformers`:
    - Eingabe der Abfragen mit einem spezifischen Prompt.
-3. Berechnung der Cosine Similarity für jeden Satz und die Abfrage.
+2. Berechnung der Cosine Similarity für jeden Satz und die Abfrage.
 
 #### Test 2:
 
-1. Sätze sammeln und in einer Textdatei speichern: Auswahl von 10 Satzpaaren und Hinzufügen der zu testenden Sätze in eine Liste.
-2. Verwendung des Modells via API, um die eingebetteten Vektoren für jeden Satz zu erhalten und diese in einem NumPy-Array zu speichern.
+Verwendung des Modells via API, um die eingebetteten Vektoren für jeden Satz zu erhalten und diese in einem NumPy-Array zu speichern.
 
 ### Ergebnisse beurteilen:
 
