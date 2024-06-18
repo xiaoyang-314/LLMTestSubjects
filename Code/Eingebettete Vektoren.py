@@ -5,10 +5,10 @@ import numpy as np
 mxbai = MixedbreadAI(api_key="emb_39818b04d52147ef0840e2f3fe42a5157c0e0a941990e922")
 
 english_sentences = [
-    'A man is looking at a computer monitor.',
-    'A man is using a laptop.',
-    'Boy with glasses typing on a computer.',
-    'A boy looking at a computer screen.'
+    'A man is slicing potatoes.',
+    'A woman is peeling potato.',
+    'A woman is slicing an onion.',
+    'A woman is cutting a potato.'
 ]
 
 res = mxbai.embeddings(
