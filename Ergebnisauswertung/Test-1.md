@@ -192,29 +192,3 @@
 
 ---
 
-## Analyse
-1. **Allgemeine Beobachtungen:**
-   - Die Kosinus-Ähnlichkeiten liegen meist im Bereich von 0,5 bis 0,9, was darauf hindeutet, dass die meisten Paare eine gewisse Ähnlichkeit in ihren Vektor-Darstellungen aufweisen.
-   - Die menschlichen Ähnlichkeitswerte variieren stärker, was zeigt, dass die menschliche Wahrnehmung von Ähnlichkeit erheblich von den Kosinus-Ähnlichkeitsmaßen abweichen kann.
-
-2. **Hohe Kosinus-Ähnlichkeit und niedriger menschlicher Wert:**
-   - Zum Beispiel: "A woman is slicing an onion." vs. "A woman is cutting a potato." hat eine Kosinus-Ähnlichkeit von 0,6758, aber einen menschlichen Wert von nur 1,2. Diese Diskrepanz könnte darauf zurückzuführen sein, dass Menschen die spezifische Aktion und das Objekt tiefer berücksichtigen als das Einbettungsmodell.
-
-3. **Niedrige Kosinus-Ähnlichkeit und hoher menschlicher Wert:**
-   - "A boy with a broken arm is resting in a bed." vs. "A boy with a broken arm is sleeping." hat einen hohen menschlichen Wert von 4,0, aber eine niedrigere Kosinus-Ähnlichkeit von 0,8751. Menschen erkennen wahrscheinlich die Kernaktivität (Ruhe/Schlaf) als sehr ähnlich, während das Modell Unterschiede sieht.
-
-4. **Übereinstimmende Werte:**
-   - Einige Paare, wie "Two dogs swim in a pool." vs. "Dogs are swimming in a pool." haben sowohl hohe menschliche Ähnlichkeit (4,2) als auch hohe Kosinus-Ähnlichkeit (0,8813), was eine starke Übereinstimmung zwischen menschlicher Wahrnehmung und Modell anzeigt.
-
-5. **Interessante Fälle:**
-   - "A bird lands in the water." vs. "A boat floats in the water." hat niedrige menschliche (0,6) und moderate Kosinus-Ähnlichkeitswerte (0,5943), was zeigt, dass sowohl Menschen als auch Modelle diese Sätze trotz eines gemeinsamen Settings als ziemlich unterschiedlich erkennen.
-
-Diese Analyse zeigt, dass das Modell **mxbai-embed-large-v1** nützliche Informationen über Satzähnlichkeiten liefern kann. Es gibt jedoch Unterschiede zwischen den vom Modell berechneten Ähnlichkeiten und menschlichen Bewertungen. Das deutet darauf hin, dass das Modell möglicherweise andere Aspekte der Satzstruktur und -bedeutung berücksichtigt als Menschen. Dies kann daran liegen, dass das Modell auf statistischen Mustern und nicht auf semantischem Verständnis basiert. Es zeigt sich, dass das Modell in vielen Fällen eine gute Übereinstimmung mit menschlichen Bewertungen hat, aber in einigen Fällen differieren die Bewertungen erheblich.
-
-Diese Beobachtungen verdeutlichen, dass das Modell nützliche Einblicke bietet, aber auch seine Grenzen hat. Es ist wichtig, die Ergebnisse sowohl maschineller Berechnungen als auch menschlicher Bewertungen kritisch zu betrachten, insbesondere bei Anwendungen, bei denen ein tiefes semantisches Verständnis erforderlich ist. Weitere Forschungen und Verbesserungen könnten helfen, die Übereinstimmung zwischen maschinellen Modellen und menschlichen Wahrnehmungen zu verbessern, um robustere und zuverlässigere Modelle zu entwickeln.
-
-
-
-
-
-
