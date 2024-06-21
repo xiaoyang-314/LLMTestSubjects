@@ -192,7 +192,7 @@
 
 ---
 
-![image](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/a40ed40f-9e7d-437b-b498-88437e79431e)
+![image](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/d51a3f44-caac-4909-a2b0-9254756f0ddf)
 
 ![output](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/164e2c40-b573-4a70-8c4d-25f0ca64fb4c)
 
