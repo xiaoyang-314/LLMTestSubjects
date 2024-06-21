@@ -192,6 +192,8 @@
 
 ---
 
+![image](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/a40ed40f-9e7d-437b-b498-88437e79431e)
+
 ![output](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/164e2c40-b573-4a70-8c4d-25f0ca64fb4c)
 
 ### Quantitative Analysis
