@@ -197,7 +197,7 @@
 ### Quantitative Analysis
 
 1. **Normalization**:
-   - Die menschlichen Ähnlichkeitswerte reichen von 0,6 bis 4,2, und die Kosinus-Ähnlichkeitswerte reichen von etwa 0,5451 bis 0,8813.
+   - Die menschlichen Ähnlichkeitswerte reichen von 0,6 bis 4,2, und die Kosinus-Ähnlichkeitswerte reichen von etwa 0,5451 bis 0,8813, was darauf hindeutet, dass die meisten Paare eine gewisse Ähnlichkeit in ihren Vektor-Darstellungen aufweisen. Im Vergleich dazu variieren die menschlichen Ähnlichkeitswerte stärker.
    - Durch die Normalisierung werden beide Wertemengen auf einen Bereich von 0 bis 1 skaliert, was einen direkten Vergleich ermöglicht.
 
 2. **Korrelationsanalyse**:
