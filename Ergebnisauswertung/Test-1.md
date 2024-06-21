@@ -194,4 +194,59 @@
 
 ![output](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/164e2c40-b573-4a70-8c4d-25f0ca64fb4c)
 
+### Quantitative Analysis
 
+1. **Normalization**:
+   - Die menschlichen Ähnlichkeitswerte reichen von 0,6 bis 4,2, und die Kosinus-Ähnlichkeitswerte reichen von etwa 0,5451 bis 0,8813.
+   - Durch die Normalisierung werden beide Wertemengen auf einen Bereich von 0 bis 1 skaliert, was einen direkten Vergleich ermöglicht.
+
+2. **Korrelationsanalyse**:
+   - Die normalisierten menschlichen Ähnlichkeitswerte und die Kosinus-Ähnlichkeitswerte können verglichen werden, um zu sehen, wie gut sie korrelieren. Der berechnete Korrelationskoeffizient beträgt **0.793**, was auf eine starke positive Korrelation hinweist.
+
+### Berechnungsprozess
+
+1. **Normalisierung**:
+   - Zuerst wurden die menschlichen Ähnlichkeitswerte und die Kosinus-Ähnlichkeitswerte mit Hilfe des MinMaxScaler aus der Bibliothek sklearn normalisiert.
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler()
+
+# Fit and transform the data
+df[['Human Similarity Normalized', 'Cosine Similarity Normalized']] = scaler.fit_transform(df[['Human Similarity', 'Cosine Similarity']])
+```
+
+2. **Korrelationskoeffizient**:
+   - Danach wurde der Korrelationskoeffizient zwischen den normalisierten Werten berechnet.
+
+```python
+import numpy as np
+
+# Calculate correlation coefficient
+correlation = np.corrcoef(df['Human Similarity Normalized'], df['Cosine Similarity Normalized'])[0, 1]
+correlation
+```
+
+   - Der berechnete Korrelationskoeffizient beträgt **0.793**.
+
+### Qualitative Analysis
+
+1. **Trends und Muster**:
+   - Generell weisen Paare mit höheren menschlichen Ähnlichkeitswerten auch höhere Kosinus-Ähnlichkeitswerte auf und umgekehrt. Dies deutet darauf hin, dass die Kosinus-Ähnlichkeit in gewissem Maße mit der menschlichen Einschätzung übereinstimmt.
+   - Bestimmte Paare, wie „Two dogs swim in a pool“ und „Dogs are swimming in a pool“, erhielten hohe Ähnlichkeitswerte von sowohl Menschen als auch der Kosinus-Ähnlichkeit, was auf eine starke Übereinstimmung hinweist.
+
+2. **Abweichungen**:
+   - Einige Satzpaare zeigen Abweichungen zwischen menschlichen und Kosinus-Ähnlichkeitswerten. Zum Beispiel hat „A man is slicing potatoes“ vs. „A woman is peeling potato“ einen relativ niedrigen menschlichen Ähnlichkeitswert (2,2), aber einen hohen Kosinus-Ähnlichkeitswert (0,6808). Dies könnte darauf zurückzuführen sein, dass die Kosinus-Ähnlichkeit lexikalische oder syntaktische Ähnlichkeiten erfasst, die Menschen übersehen oder als weniger wichtig erachten.
+
+3. **Kontextuelle Unterschiede**:
+   - Menschliche Ähnlichkeitsbewertungen berücksichtigen oft den Kontext und ein tieferes semantisches Verständnis. Zum Beispiel haben „A man is riding a bicycle“ vs. „A monkey is riding a bike“ einen menschlichen Ähnlichkeitswert von 2,0, aber einen Kosinus-Ähnlichkeitswert von 0,6331. Der Unterschied in den Subjekten (man vs. monkey) ist für Menschen bedeutender als für die Kosinus-Ähnlichkeit, die möglicherweise mehr auf die Ähnlichkeit von Verb und Objekt achtet.
+
+### Zusammenfassung
+
+- **Korrelation**: Es gibt eine positive Korrelation zwischen den normalisierten menschlichen Ähnlichkeitswerten und den Kosinus-Ähnlichkeitswerten, was darauf hinweist, dass die Kosinus-Ähnlichkeit als vernünftiger Stellvertreter für menschliche Einschätzungen dienen kann, obwohl sie nicht vollständig übereinstimmen.
+- **Muster und Abweichungen**: Menschliche Einschätzungen berücksichtigen den Kontext und die Semantik tiefer, was zu einigen Abweichungen führt, während die Kosinus-Ähnlichkeit mehr auf lexikalische und syntaktische Ähnlichkeiten angewiesen ist.
+
+### Anwendung auf Modell „mxbai-embed-large-v1“
+
+Das Ziel dieses Experiments ist es, die semantische Ähnlichkeitsfunktion des Modells „mxbai-embed-large-v1“ zu testen. Dabei wurde festgestellt, dass das Modell in vielen Fällen menschliche Ähnlichkeitsbewertungen gut widerspiegelt, es jedoch in bestimmten kontextabhängigen Fällen zu Abweichungen kommt. Die starke Korrelation zwischen den normalisierten Werten legt nahe, dass das Modell grundsätzlich eine gute semantische Ähnlichkeitsfunktion bietet, jedoch möglicherweise in der Feinabstimmung der kontextuellen und semantischen Unterschiede verbessert werden könnte.
