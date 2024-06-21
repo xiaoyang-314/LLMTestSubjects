@@ -192,3 +192,6 @@
 
 ---
 
+![output](https://github.com/xiaoyang-314/ObjectSemantischeAehnlichkeit/assets/170884230/164e2c40-b573-4a70-8c4d-25f0ca64fb4c)
+
+
